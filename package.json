@@ -1,0 +1,19 @@
+{
+  "name": "protests.in",
+  "version": "4.0.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.1.3",
+    "@material-ui/styles": "^4.1.2",
+    "clsx": "latest",
+    "next": "^8.1.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
