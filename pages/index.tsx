@@ -8,10 +8,10 @@ import Header from '../components/layout/Header';
 
 export default function App() {
   return (
-      <Box my={4} textAlign="center">
-        <Typography variant="h4" component="h1" gutterBottom>
-          Start a protest
-        </Typography>
-      </Box>
+    <Box my={4} textAlign="center">
+      <Typography variant="h4" component="h1" gutterBottom>
+        Start a protest
+      </Typography>
+    </Box>
   );
 }
