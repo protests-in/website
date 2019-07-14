@@ -18,16 +18,14 @@ function MadeWithLove() {
   );
 }
 
-export default function Index() {
+export default function App() {
   return (
     <Container maxWidth="sm">
       <Box my={4}>
         <Typography variant="h4" component="h1" gutterBottom>
-          Next.js v4-beta example
+          Next.js v4-alpha with TypeScript example
         </Typography>
-        <Link href="/about" color="secondary">
-          Go to the about page
-        </Link>
+        <Link href="/">Go to the main page</Link>
         <ProTip />
         <MadeWithLove />
       </Box>
